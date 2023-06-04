@@ -1,0 +1,108 @@
+.img-avatar {
+    border-radius: 50%;
+    width: 56px;
+    display: flex;
+    justify-content: start;
+}
+
+.container {
+    padding: 20px 70px;
+    scroll-snap-align: start;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.info {
+    display: flex;
+    align-items: start;
+}
+.info-item {
+    padding-left: 8px;
+}
+.info-name {
+    display: flex;
+    align-items: center;
+}
+
+.info-nickname {
+    font-size: 18px;
+}
+
+.info-fullname {
+    font-size: 14px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+.info-desc {
+    display: flex;
+}
+
+.info-music {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.btn {
+    margin-right: 70px;
+}
+.hagtag {
+    font-weight: 800;
+}
+.info-music {
+    font-weight: 800;
+}
+
+.info-music:last-child {
+    padding-left: 8px;
+}
+
+.video {
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.video-nav {
+    display: flex;
+    align-items: end;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.action span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+    font-size: 25px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 50%;
+}
+.icon-none {
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+    font-size: 25px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 50%;
+    color: black;
+}
+.icon-none,
+.icon:hover {
+    cursor: pointer;
+}

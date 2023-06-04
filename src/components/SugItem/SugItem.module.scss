@@ -1,0 +1,62 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 200ms ease-in-out 0s;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.menu-list {
+    width: 320px;
+
+    .menu-item {
+        margin-left: 0;
+    }
+}
+
+.box {
+    padding: 20px;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reaction {
+    display: flex;
+}
+
+.like {
+    margin-left: 28px;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.info {
+    flex: 1;
+    padding-left: 8px;
+    line-height: 100%;
+}
+.name {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.icon {
+    padding-left: 8px;
+    color: cyan;
+}
+
+.username {
+    color: rgb(166 167 171);
+    font-size: 12px;
+}
